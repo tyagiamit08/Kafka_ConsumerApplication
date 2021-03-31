@@ -19,7 +19,7 @@ namespace Kafka_ConsumerApplication.Core.kafkaEvents.UserRegistration.Handlers
 			// Here we can actually write the code to register a User
 			Console.WriteLine($"Consuming UserRegistered topic message with the below data\n FirstName: {value.FirstName}\n LastName: {value.LastName}\n UserName: {value.UserName}\n EmailId: {value.EmailId}");
 
-			//After successful operation, suppose if the registered user has User Id as 1 the we can produce message
+			//After successful operation, suppose if the registered user has User Id as 1 the we can produce message for other service's consumption
 			_producer.ProduceAsync(KafkaTopics.UserRegistered, "", new UserRegistered { UserId = 1 });
 
 			return Task.CompletedTask;

@@ -27,7 +27,7 @@ namespace Kafka_ConsumerApplication
 		{
 			services.AddSwaggerGen(c =>
 			{
-				c.SwaggerDoc(name: "v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "SurveyAudit API", Version = "v1" });
+				c.SwaggerDoc(name: "v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Kafka Consumer API", Version = "v1" });
 				c.EnableAnnotations();
 			});
 
@@ -69,7 +69,7 @@ namespace Kafka_ConsumerApplication
 			app.UseSwagger();
 			app.UseSwaggerUI(c =>
 			{
-				c.SwaggerEndpoint(url: "/swagger/v1/swagger.json", name: "SurveyAudit API");
+				c.SwaggerEndpoint(url: "/swagger/v1/swagger.json", name: "Kafka Consumer API");
 				c.RoutePrefix = string.Empty;
 			});
 
