@@ -1,0 +1,12 @@
+C:\Users\Amit Tyagi\OneDrive - McKinsey & Company\Desktop\Kafka_ConsumerApplication\Kafka_ConsumerApplication.Core\bin\Debug\netcoreapp3.1\Kafka_ConsumerApplication.Core.deps.json
+C:\Users\Amit Tyagi\OneDrive - McKinsey & Company\Desktop\Kafka_ConsumerApplication\Kafka_ConsumerApplication.Core\bin\Debug\netcoreapp3.1\Kafka_ConsumerApplication.Core.dll
+C:\Users\Amit Tyagi\OneDrive - McKinsey & Company\Desktop\Kafka_ConsumerApplication\Kafka_ConsumerApplication.Core\bin\Debug\netcoreapp3.1\Kafka_ConsumerApplication.Core.pdb
+C:\Users\Amit Tyagi\OneDrive - McKinsey & Company\Desktop\Kafka_ConsumerApplication\Kafka_ConsumerApplication.Core\bin\Debug\netcoreapp3.1\Kafka.dll
+C:\Users\Amit Tyagi\OneDrive - McKinsey & Company\Desktop\Kafka_ConsumerApplication\Kafka_ConsumerApplication.Core\bin\Debug\netcoreapp3.1\Kafka.pdb
+C:\Users\Amit Tyagi\OneDrive - McKinsey & Company\Desktop\Kafka_ConsumerApplication\Kafka_ConsumerApplication.Core\obj\Debug\netcoreapp3.1\Kafka_ConsumerApplication.Core.csprojAssemblyReference.cache
+C:\Users\Amit Tyagi\OneDrive - McKinsey & Company\Desktop\Kafka_ConsumerApplication\Kafka_ConsumerApplication.Core\obj\Debug\netcoreapp3.1\Kafka_ConsumerApplication.Core.AssemblyInfoInputs.cache
+C:\Users\Amit Tyagi\OneDrive - McKinsey & Company\Desktop\Kafka_ConsumerApplication\Kafka_ConsumerApplication.Core\obj\Debug\netcoreapp3.1\Kafka_ConsumerApplication.Core.AssemblyInfo.cs
+C:\Users\Amit Tyagi\OneDrive - McKinsey & Company\Desktop\Kafka_ConsumerApplication\Kafka_ConsumerApplication.Core\obj\Debug\netcoreapp3.1\Kafka_ConsumerApplication.Core.csproj.CoreCompileInputs.cache
+C:\Users\Amit Tyagi\OneDrive - McKinsey & Company\Desktop\Kafka_ConsumerApplication\Kafka_ConsumerApplication.Core\obj\Debug\netcoreapp3.1\Kafka_ConsumerApplication.Core.csproj.CopyComplete
+C:\Users\Amit Tyagi\OneDrive - McKinsey & Company\Desktop\Kafka_ConsumerApplication\Kafka_ConsumerApplication.Core\obj\Debug\netcoreapp3.1\Kafka_ConsumerApplication.Core.dll
+C:\Users\Amit Tyagi\OneDrive - McKinsey & Company\Desktop\Kafka_ConsumerApplication\Kafka_ConsumerApplication.Core\obj\Debug\netcoreapp3.1\Kafka_ConsumerApplication.Core.pdb

@@ -1,0 +1,230 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Amit Tyagi\\OneDrive - McKinsey & Company\\Desktop\\Kafka_ConsumerApplication\\Kafka_ConsumerApplication\\Kafka_ConsumerApplication.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Amit Tyagi\\OneDrive - McKinsey & Company\\Desktop\\Kafka_ConsumerApplication\\Kafka\\Kafka.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Amit Tyagi\\OneDrive - McKinsey & Company\\Desktop\\Kafka_ConsumerApplication\\Kafka\\Kafka.csproj",
+        "projectName": "Kafka",
+        "projectPath": "C:\\Users\\Amit Tyagi\\OneDrive - McKinsey & Company\\Desktop\\Kafka_ConsumerApplication\\Kafka\\Kafka.csproj",
+        "packagesPath": "C:\\Users\\Amit Tyagi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Amit Tyagi\\OneDrive - McKinsey & Company\\Desktop\\Kafka_ConsumerApplication\\Kafka\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Amit Tyagi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://artifacts.intranet.mckinsey.com/artifactory/api/nuget/clientteampulse-nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[1.6.2, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Amit Tyagi\\OneDrive - McKinsey & Company\\Desktop\\Kafka_ConsumerApplication\\Kafka_ConsumerApplication.Core\\Kafka_ConsumerApplication.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Amit Tyagi\\OneDrive - McKinsey & Company\\Desktop\\Kafka_ConsumerApplication\\Kafka_ConsumerApplication.Core\\Kafka_ConsumerApplication.Core.csproj",
+        "projectName": "Kafka_ConsumerApplication.Core",
+        "projectPath": "C:\\Users\\Amit Tyagi\\OneDrive - McKinsey & Company\\Desktop\\Kafka_ConsumerApplication\\Kafka_ConsumerApplication.Core\\Kafka_ConsumerApplication.Core.csproj",
+        "packagesPath": "C:\\Users\\Amit Tyagi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Amit Tyagi\\OneDrive - McKinsey & Company\\Desktop\\Kafka_ConsumerApplication\\Kafka_ConsumerApplication.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Amit Tyagi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://artifacts.intranet.mckinsey.com/artifactory/api/nuget/clientteampulse-nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Amit Tyagi\\OneDrive - McKinsey & Company\\Desktop\\Kafka_ConsumerApplication\\Kafka\\Kafka.csproj": {
+                "projectPath": "C:\\Users\\Amit Tyagi\\OneDrive - McKinsey & Company\\Desktop\\Kafka_ConsumerApplication\\Kafka\\Kafka.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Amit Tyagi\\OneDrive - McKinsey & Company\\Desktop\\Kafka_ConsumerApplication\\Kafka_ConsumerApplication\\Kafka_ConsumerApplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Amit Tyagi\\OneDrive - McKinsey & Company\\Desktop\\Kafka_ConsumerApplication\\Kafka_ConsumerApplication\\Kafka_ConsumerApplication.csproj",
+        "projectName": "Kafka_ConsumerApplication",
+        "projectPath": "C:\\Users\\Amit Tyagi\\OneDrive - McKinsey & Company\\Desktop\\Kafka_ConsumerApplication\\Kafka_ConsumerApplication\\Kafka_ConsumerApplication.csproj",
+        "packagesPath": "C:\\Users\\Amit Tyagi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Amit Tyagi\\OneDrive - McKinsey & Company\\Desktop\\Kafka_ConsumerApplication\\Kafka_ConsumerApplication\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Amit Tyagi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://artifacts.intranet.mckinsey.com/artifactory/api/nuget/clientteampulse-nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Amit Tyagi\\OneDrive - McKinsey & Company\\Desktop\\Kafka_ConsumerApplication\\Kafka\\Kafka.csproj": {
+                "projectPath": "C:\\Users\\Amit Tyagi\\OneDrive - McKinsey & Company\\Desktop\\Kafka_ConsumerApplication\\Kafka\\Kafka.csproj"
+              },
+              "C:\\Users\\Amit Tyagi\\OneDrive - McKinsey & Company\\Desktop\\Kafka_ConsumerApplication\\Kafka_ConsumerApplication.Core\\Kafka_ConsumerApplication.Core.csproj": {
+                "projectPath": "C:\\Users\\Amit Tyagi\\OneDrive - McKinsey & Company\\Desktop\\Kafka_ConsumerApplication\\Kafka_ConsumerApplication.Core\\Kafka_ConsumerApplication.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
